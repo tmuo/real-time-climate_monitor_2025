@@ -1,12 +1,12 @@
 {
-  "port": "COM3",
-  "configuration": "cpu=atmega168",
+  "port": "COM4",
+  "configuration": "",
   "output": "build",
-  "board": "arduino:avr:nano",
-  "programmer": "",
+  "board": "arduino:avr:unowifi",
+  "programmer": "arduinoasisp",
   "useProgrammer": false,
   "optimize_for_debug": false,
-  "configurationRequired": true,
+  "configurationRequired": false,
   "compile_profile": "Arduino_Nano_Every",
   "monitorPortSettings": {
     "port": "COM3",
