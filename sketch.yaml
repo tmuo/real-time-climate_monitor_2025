@@ -1,0 +1,13 @@
+profiles:
+  Arduino_Nano_Every:
+    fqbn: arduino:avr:nano:cpu=atmega168
+    platforms:
+      - platform: arduino:avr (1.8.6)
+    programmer: ""
+    port: COM3
+    port_config:
+      baudrate: "115200"
+      bits: "8"
+      parity: none
+      stop_bits: one
+default_profile: Arduino_Nano_Every
